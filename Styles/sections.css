@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #1f2937;
   padding: 0 100px;
-  height: 500px;
+  height: 450px;
 }
 
 .content{
@@ -87,4 +87,67 @@ button{
   object-position: center;
   border: 4px solid #3882F6;
   border-radius: 15px;
+}
+
+/* section 3 */
+
+.third{
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 250px;
+  height: 500px;
+}
+
+.big-text{
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 0;
+}
+
+.author{
+  font-size: 25px;
+  font-weight: 700;
+  color: #1f2937;
+  align-self: flex-end;
+}
+
+/* Section 4 */
+
+.fourth{
+  display: flex;
+  justify-content: center;
+  flex: center;
+  align-items: center;
+  height: 400px;
+}
+
+.box{
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: white;
+  padding: 30px 120px;
+  align-items: center;
+  gap: 110px;
+}
+
+.box button{
+  border: 2px solid white;
+}
+
+.box .upper{
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.box .lower{
+  margin-top: 5px;
+  color: #E5E7EB;
+  font-size: 18px;
 }
